@@ -1,3 +1,4 @@
+<!-- Hamburger menu -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,19 +12,52 @@ must come *after* these tags -->
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-      <div class="col-md-3 col-xs-5">
-      <div class="thumbnail">
-      <img class="img-responsive" src="Gateway_Arch_(distant_view).jpg"" alt="St. Louis Arch">
-      <div class="caption">
-      This is the St. Louis Arch
-      </div>
-      </div>
-      </div>
-      </div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navCollapse"
+          >
+            <span
+              class="glyphicon glyphicon-menu-hamburger"
+              aria-hidden="true"
+            ></span>
+          </button>
+          <a class="navbar-brand" href="#">EJ Media</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navCollapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Entertainment</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-envelope"></span> Contact
+                Us</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search" />
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
       </div>
     </nav>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include
