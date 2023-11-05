@@ -4,3 +4,4 @@ Developing a small projects using Bootstrap allows for hands-on experience in en
 
 Exercises-1: - Grid system - Responsive classes and aligments - Offsetting columns - Nesting
 Exercises-2: - Visibility - Push and Pull - Hidden - Multiple classes - Typography
+Exercises-3: - Buttons - Toolbar - Dropdown - Navigation bar - Logo - Search bar
